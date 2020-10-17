@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
+
+#tsparticles {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+} 
+ 
+div.candara {
+	font-family: Candara;
+}
+
+p.space_medium {
+	display: block; 
+    margin-bottom: 1em;
+}
+
+ul { 
+	display: inline-block; 
+	text-align: left; 
+}
+ul.reset {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+        
+li.image {
+	background: url('circle.png') no-repeat left 5px;
+	height: 22px;
+	padding-left: 18px;
+	padding-top: 1px;
+}
+
+.container{
+	display: flex;
+}
+
+.fixed {
+	width: 700px;
+}
+
+.flex-item{
+	flex-grow: 1;
+}
