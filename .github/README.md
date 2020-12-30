@@ -1,5 +1,5 @@
-# ArminC-HTML-Template
-Template with the latest HTML standards (at the update time), featuring the Among Us theme.
+# ArminC-AmongUs-HTML-Template
+Template with modern HTML standards, featuring the Among Us theme.
 
 ![ArminC HTML Template](https://raw.githubusercontent.com/ArmynC/ArminC-HTML-Template/master/preview.png)
 <p align="right">
@@ -7,4 +7,4 @@ Template with the latest HTML standards (at the update time), featuring the Amon
 </p>
 
 ## License
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[GNU LGPLv3](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3))
