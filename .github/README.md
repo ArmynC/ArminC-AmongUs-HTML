@@ -6,5 +6,5 @@ Template with modern HTML standards, featuring the Among Us theme.
 <sub>(Preview)</sub>
 </p>
 
-## License
-[GNU LGPLv3](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3))
+##### License
+[CC0 1.0](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal)
