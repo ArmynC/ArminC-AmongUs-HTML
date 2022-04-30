@@ -1,75 +1,105 @@
 <html>
-   <head>
-      <link rel="stylesheet" href="assets/styles.css">
-      <link rel="icon" href="assets/favicon.png" type="image/png" sizes="32x32">
-      <title>Among Us</title>
-      <!-- ArminC
-         AC -->
-   </head>
-   <body>
-      <div id="tsparticles"></div>
-      <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.11/dist/tsparticles.min.js" integrity="sha256-Xt56vRiLO7CCjPyRuztU0NPrYwx4IFIUaHpdxWbFOKY=" crossorigin="anonymous"></script>
-      <script src="assets/tsparticles_config.js"></script>
-      <a href="https://store.steampowered.com/app/945360/Among_Us/">
-         <h1 style="font-family:Verdana;">Among Us</h1>
-      </a>
-      <p style="font-family:cursive;">An online and local party game of teamwork and betrayal for 4-10 players...in space!</p>
-      <a href="https://among-us.fandom.com/wiki/Among_Us_Wiki">
-      <img src="assets/1.png" alt="Among Us" style="width:200px">
-      </a>
-      <p style="font-family:courier new;">Play with 4-10 player online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone!</p>
-      <div class="container">
-         <div class="candara">
-            <div class="fixed">
-               <a href="https://among-us.fandom.com/wiki/Crewmate">
-               <img src="assets/2.png" alt="Crew" style="width:500px">
-               </a>
-               <p class="space_medium"></p>
-               <ul class="reset">
-                  <li class="image">Win by completing tasks to prepare the ship or ejecting all Impostors.</li>
-                  <li class="image">React quickly to undo the Impostor's sabotages.</li>
-                  <li class="image">Check the Admin map and Security cameras to keep tabs on other Crewmates.</li>
-                  <li class="image">Report any dead bodies immediately to start discussion of who the suspected Impostor is.</li>
-                  <li class="image">Call emergency meetings to discuss suspicious behavior.</li>
-                  <li class="image">Vote to eject suspected Impostors.</li>
-               </ul>
-            </div>
-         </div>
-         <div class="flex-item">
-            <div class="candara">
-               <a href="https://among-us.fandom.com/wiki/Impostor">
-               <img src="assets/3.png" alt="Impostor" style="width:500px">
-               </a>
-               <p class="space_medium"></p>
-               <ul class="reset">
-                  <li class="image">Kill crewmates and frame bystanders.</li>
-                  <li class="image">Pretend to run tasks to blend in with the crewmates.</li>
-                  <li class="image">Sneak through the vents to quickly move about the ship.</li>
-                  <li class="image">Use sabotages to cause chaos and divide the crew.</li>
-                  <li class="image">Close doors to trap victims and kill in private.</li>
-               </ul>
-            </div>
-         </div>
+  <head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+	
+    <!-- Icon -->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="32x32">
+	
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+	
+	<!-- Tab title -->
+    <title>Among Us</title>
+  </head>
+  <body>
+    <!-- TsParticles -->
+    <div id="tsparticles"></div>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
+    <script src="assets/js/tsparticles_config.js"></script>
+	
+    <!-- Site header zone -->
+    <p class="space_padding_top"></p>
+    <a href="https://store.steampowered.com/app/945360/Among_Us/">
+      <img src="assets/img/logo.png" alt="Among Us Logo" style="width: 200px;">
+    </a>
+    <p style="font-family: smooch sans;">A party game of teamwork and betrayal.</p>
+	
+    <!-- Menu -->
+    <nav class="menu">
+      <a class="active" href="index.html">Home</a>
+      <a href="museum.html">Museum</a>
+      <a href="hitem.html">Hit'Em</a>
+      <div class="dot"></div>
+    </nav>
+	
+    <!-- Content -->
+    <p class="space_padding"></p>
+	
+    <a href="https://among-us.fandom.com/wiki/Among_Us_Wiki">
+      <img src="assets/img/banner.png" alt="Among Us Banner" style="width: 200px;">
+    </a>
+    <p style="font-family: jetbrains mono;">Crewmates work together to complete tasks before one or more Impostors can kill everyone aboard.</p>
+    <div class="container">
+      <div class="sora">
+        <div class="fixed">
+          <a href="https://among-us.fandom.com/wiki/Crewmate">
+            <img src="assets/img/crew.png" alt="Crew" style="width: 500px;">
+          </a>
+          <p class="space_margin"></p>
+          <ul class="reset">
+            <li class="image">Complete all the tasks on the ship or eject Impostors to win.</li>
+            <li class="image">React quickly to undo the Impostor’s sabotages.</li>
+            <li class="image">Check the Admin map and Security cameras to keep tabs on other Crewmates.</li>
+            <li class="image">Call emergency meetings if you see any dead bodies or suspicious behavior.</li>
+            <li class="image">Make sure you have your alibi ready in case you’re falsely accused.</li>
+            <li class="image">Vote to eject suspected Impostors. Hope you guessed correctly!</li>
+          </ul>
+        </div>
       </div>
-      <div>
-         <div class="candara">
-            <a href="https://among-us.fandom.com/wiki/Among_Us">
-            <img src="assets/4.png" alt="Multiplay" style="width:500px">
-            </a>
-            <p class="space_medium"></p>
-            <ul class="reset">
-               <li class="image">Customization: Pick your color and hat.</li>
-               <li class="image">Lots of game options: Add more impostors, more tasks, and so much more!</li>
-               <li class="image">Quickly find a game online from the host list.</li>
-               <li class="image">In-game text chat.</li>
-               <li class="image">Rich discord integration.</li>
-               <li class="image">Cross-platform play between PC, Android, and iOS!</li>
-            </ul>
-         </div>
+      <div class="flex-item">
+        <div class="sora">
+          <a href="https://among-us.fandom.com/wiki/Impostor">
+            <img src="assets/img/impostor.png" alt="Impostor" style="width: 500px;">
+          </a>
+          <p class="space_margin"></p>
+          <ul class="reset">
+            <li class="image">Kill Crewmates and frame innocent bystanders.</li>
+            <li class="image">Pretend to do tasks to blend in with the Crewmates.</li>
+            <li class="image">Sneak through the vents to quickly move around.</li>
+            <li class="image">Sabotage tasks to cause chaos and confuse the crew.</li>
+            <li class="image">Close doors to trap victims and kill in private.</li>
+            <li class="image">Do everything you can to convince the crew that you’re one of them.</li>
+            <li></li>
+          </ul>
+        </div>
       </div>
-      <div class="candara">
-         <hr class="half">
-         &copy; <a href="http://steamcommunity.com/id/arminc/">ArminC</a> (<a href="https://github.com/armync">GitHub</a>)
+    </div>
+    <div>
+      <p class="space_margin_larger"></p>
+      <div class="sora">
+        <a href="https://among-us.fandom.com/wiki/Among_Us">
+          <img src="assets/img/multiplay.png" alt="Multiplay" style="width: 500px;">
+        </a>
+        <p class="space_margin"></p>
+        <ul class="reset">
+          <li class="image">Customization: Pick your color and hat.</li>
+          <li class="image">Lots of game options: Add more impostors, more tasks, and so much more!</li>
+          <li class="image">Quickly find a game online from the host list.</li>
+          <li class="image">In-game text chat.</li>
+          <li class="image">Rich discord integration.</li>
+          <li class="image">Cross-platform play between PC, Android, and iOS!</li>
+        </ul>
       </div>
-   </body>
+    </div>
+	
+    <!-- Copyright -->
+    <p style="font-family: candara;">&copy; <a href="http://steamcommunity.com/id/arminc/">ArminC</a> (<a href="https://github.com/armync">GitHub</a>)</p>
+	<!-- ArminC
+		AC -->
+  </body>
 </html>
