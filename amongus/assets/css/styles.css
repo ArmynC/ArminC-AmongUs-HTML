@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  width: 100%;
   text-align: center;
   color: white;
   font-family: "Montserrat";
@@ -22,7 +23,7 @@ a:active {
 
 div.sora {
   font-family: "Sora";
-  font-size: 13px;
+  font-size: 80%;
 }
 
 p.space_margin {
@@ -41,11 +42,11 @@ p.space_margin_xlarger {
 }
 
 p.space_padding {
-  padding: 15px;
+  padding: 1%;
 }
 
 p.space_padding_top {
-  padding-top: 15px;
+  padding-top: 1%;
 }
 
 ul {
