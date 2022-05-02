@@ -14,7 +14,7 @@ window.onload = () => {
 //	if (!localStorage.getItem("tb")) {
 		Toast.fire({
 			icon: 'info',
-			title: "... who's the impostor?"
+			title: "... who's the impostor? click him!"
 		})
      // localStorage.setItem("tb", 'viewed');
 //	}
