@@ -8,6 +8,11 @@ body {
   background-color: transparent;
 }
 
+footer {
+  position: relative;
+  width: 100%;
+}
+
 canvas {
   display: block;
   vertical-align: bottom;
@@ -55,7 +60,6 @@ ul {
 }
 
 ul.reset {
-  padding: 0;
   margin: 0;
   list-style-type: none;
 }
@@ -69,14 +73,11 @@ li.image {
 
 .container {
   display: flex;
+  padding-left: 5%;
 }
 
 .fixed {
-  width: 700px;
-}
-
-.flex-item {
-  flex-grow: 1;
+  width: 100%;
 }
 
 body.swal2-shown > [aria-hidden="true"] {
