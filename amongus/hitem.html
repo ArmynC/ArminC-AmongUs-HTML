@@ -34,48 +34,54 @@
     <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
     <script src="assets/js/tsparticles_config.js"></script>
 	
-    <!-- Site header zone -->
-    <p class="space_padding_top"></p>
-	
-    <a href="https://store.steampowered.com/app/945360/Among_Us/">
-      <img src="assets/img/logo.png" alt="Among Us Logo" style="width: 15%;">
-    </a>
-    <p style="font-family: smooch sans;">A party game of teamwork and betrayal.</p>
-	
-    <!-- Menu -->
-    <p class="space_padding"></p>
-	
-    <nav class="menu">
-      <a href="index.html">Home</a>
-      <a href="museum.html">Museum</a>
-      <a class="active" href="hitem.html">Hit'Em</a>
-      <div class="dot"></div>
-    </nav>
-	
-    <!-- Content -->
-    <p class="space_padding"></p>
-	
-    <div class="container">
-      <div class="ico-player ico-player-yellow">
-        <img src="assets/img/ico-yellow-player.svg" alt="Yellow Player Decor">
-      </div>
-      <div class="ico-player ico-player-red">
-        <img src="assets/img/ico-red-player.svg" alt="Red Player Decor">
-      </div>
-      <div class="ico-player ico-player-black" onclick="video_toggle()">
-        <img src="assets/img/ico-black-player.svg" alt="Black Player Decor">
-      </div>
+    <!-- Page structure -->
+    <div id="page-container">
+      <div id="content-wrap"> <!-- content start -->
+	  
+        <!-- Site header zone -->
+        <p class="space_padding_top"></p>
+		
+        <a href="https://store.steampowered.com/app/945360/Among_Us/">
+          <img src="assets/img/logo.png" alt="Among Us Logo" style="width: 15%;">
+        </a>
+        <p style="font-family: smooch sans;">A party game of teamwork and betrayal.</p>
+		
+        <!-- Menu -->
+        <nav class="menu">
+          <a href="index.html">Home</a>
+          <a href="museum.html">Museum</a>
+          <a class="active" href="hitem.html">Hit'Em</a>
+          <div class="dot"></div>
+        </nav>
+		
+        <!-- Text -->
+        <p class="space_padding"></p>
+		
+        <div class="container">
+          <div class="ico-player ico-player-yellow">
+            <img src="assets/img/ico-yellow-player.svg" alt="Yellow Player Decor">
+          </div>
+          <div class="ico-player ico-player-red">
+            <img src="assets/img/ico-red-player.svg" alt="Red Player Decor">
+          </div>
+          <div class="ico-player ico-player-black" onclick="video_toggle()">
+            <img src="assets/img/ico-black-player.svg" alt="Black Player Decor">
+          </div>
+        </div>
+		
+        <div id="video-player" class="video-visbility">
+          <video id="play" width="640" height="360">
+            <source src="assets/img/amogus.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+          </video>
+        </div>
+		
+      </div> <!-- content end -->
+	  
+      <!-- Footer -->
+      <footer id="footer">
+        <p style="font-family: candara;">&copy; <a href="http://steamcommunity.com/id/arminc/">ArminC</a> (<a href="https://github.com/armync">GitHub</a>)</p>
+      </footer>
     </div>
-	
-    <div id="video-player" class="video-visbility">
-      <video id="play" width="640" height="360">
-        <source src="assets/img/amogus.mp4" type="video/mp4"> Your browser does not support the video tag.
-      </video>
-    </div>
-	
-    <!-- Copyright -->
-    <footer>
-      <p style="font-family: candara;">&copy; <a href="http://steamcommunity.com/id/arminc/">ArminC</a> (<a href="https://github.com/armync">GitHub</a>)</p>
-    </footer>
   </body>
 </html>
