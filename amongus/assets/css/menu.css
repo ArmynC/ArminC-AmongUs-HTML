@@ -27,31 +27,31 @@
   background: #fddb3a;
   border-radius: 50%;
   opacity: 0;
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
+  -webkit-transform: translateX(80vh);
+  transform: translateX(80vh);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
 .menu a:nth-child(1):hover ~ .dot {
-  -webkit-transform: translateX(46px);
-  transform: translateX(46px);
+  -webkit-transform: translateX(91.5vh);
+  transform: translateX(91.5vh);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .menu a:nth-child(2):hover ~ .dot {
-  -webkit-transform: translateX(150px);
-  transform: translateX(150px);
+  -webkit-transform: translateX(108vh);
+  transform: translateX(108vh);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .menu a:nth-child(3):hover ~ .dot {
-  -webkit-transform: translateX(255px);
-  transform: translateX(255px);
+  -webkit-transform: translateX(125vh);
+  transform: translateX(125vh);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
