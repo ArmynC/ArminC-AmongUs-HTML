@@ -1,7 +1,6 @@
-# ArminC-AmongUs-HTML
 HTML with modern standards and scripts, featuring the Among Us theme.
 
-![ArminC HTML](https://raw.githubusercontent.com/ArmynC/ArminC-HTML-Template/master/preview.png)
+![ArminC HTML](https://raw.githubusercontent.com/ArmynC/html-theme-amongus/master/preview.png)
 <p align="right">
 <sub>(Preview)</sub>
 </p>
